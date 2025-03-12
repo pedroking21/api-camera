@@ -1,0 +1,42 @@
+
+/* Estilos básicos para a página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+#video {
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+canvas {
+    display: none;
+}
+
+#capturedImage {
+    max-width: 100%;
+    border: 2px solid #ccc;
+    margin-top: 20px;
+}
+
+.port {
+    display: flex;
+}
+
+.live {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 50px;
+}
